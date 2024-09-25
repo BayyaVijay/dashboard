@@ -1,0 +1,56 @@
+
+.parent8{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 1060px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    top: 0%;
+
+
+}
+.head{
+    align-items: center;
+    display: flex;
+
+}
+.head1{
+    column-gap: 30px;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-right: 400px;
+}
+.date1{
+    width: 200px;
+    height: 30px;
+    font-size: x-large;
+    font-style: italic;
+    text-decoration: none;
+}
+.service{
+    position: relative;
+    
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+.head1 li a{
+    text-decoration: none;
+}
+.dropdown{
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    display: none;
+    border: 1px solid lightgray;
+    
+}
+.service:hover .dropdown{
+      display: block;
+}
